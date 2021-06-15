@@ -1,0 +1,19 @@
+.contact-hours-wrapper {
+color: royalblue
+
+}
+
+
+.navigation-wrapper { 
+height: 190px;
+background-color: #11122b;
+color: #cbcbcb;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 60 100;
+}
+body {
+margin: 0px;
+
+}
