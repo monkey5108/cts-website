@@ -3,7 +3,7 @@
     background-color: #11122b;
     color: #cbcbcb;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 60px 100px;
     
@@ -23,5 +23,26 @@ body {
 
 
 
+.banner-image {
+    margin-right: 15px;
+}
+.banner-image {
 
+font-size: 2em;
+
+}
+
+.navigation-wrapper > .links {
+
+display: grid;
+grid-template-columns: 1fr;
+
+
+}
+
+.banner-image {
+display: grid;
+margin: 15px 15px 15px 15px;
+
+}
 
