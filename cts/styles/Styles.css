@@ -1,0 +1,94 @@
+/* Common Styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Common nav Styles */
+.Navigation-Wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.Navigation-Wrapper > .left-column {
+    display:flex;
+    align-items: center;
+}
+
+.Navigation-Wrapper > .left-column > .icon {
+    margin-right: 15px;
+
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.Navigation-Wrapper > .left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.Navigation-Wrapper > .contact-hours-wrapper > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.link-Wrapper > .Nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white; 
+}
+
+.Navigation-Wrapper > .right-column > .Adress-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.Navigation-Wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.Navigation-Wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.Navigation-Wrapper > .center-column > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.link-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-Wrapper > .Nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.link-Wrapper > .Nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-Wrapper > .Nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+
+}
