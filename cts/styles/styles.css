@@ -1,0 +1,48 @@
+.navigation-wrapper { 
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 100px;
+    
+}
+body {
+    margin: 0px; 
+
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.banner-image img {
+    width: 216px;
+    height: 100%; 
+}
+
+
+
+.banner-image {
+    margin-right: 15px;
+}
+.banner-image {
+
+font-size: 2em;
+
+}
+
+.navigation-wrapper > .links {
+
+display: grid;
+grid-template-columns: 1fr;
+
+
+}
+
+.banner-image {
+display: grid;
+margin: 15px 15px 15px 15px;
+
+}
+
